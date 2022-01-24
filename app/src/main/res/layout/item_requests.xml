@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:scrollbars="vertical"
+    app:cardCornerRadius="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Name: "
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:layout_toRightOf="@+id/tvName"
+            />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Email: "
+            android:textStyle="bold"
+            android:layout_below="@+id/tvName"
+            />
+
+        <TextView
+            android:id="@+id/tvViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:layout_below="@id/tvViewName"
+            android:layout_toRightOf="@+id/tvEmail"
+            />
+
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Address: "
+            android:textStyle="bold"
+            android:layout_below="@+id/tvEmail"
+            />
+
+        <TextView
+            android:id="@+id/tvViewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:text="TextView"
+            android:layout_below="@+id/tvViewEmail"
+            android:layout_toRightOf="@+id/tvAddress"
+            />
+
+        <Button
+            android:id="@+id/btnShowLocation"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:text="Show Location "
+            android:textStyle="bold"
+            android:layout_below="@+id/tvAddress"
+            />
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_centerHorizontal="true"
+            android:text="Accept"
+            android:layout_below="@+id/btnShowLocation"
+            />
+
+        <Button
+            android:id="@+id/btnCheckStatus"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Check Status "
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@id/btnAccept"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

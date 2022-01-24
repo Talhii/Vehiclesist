@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893309019334",
+    "firebase_url": "https://vehiclesist-default-rtdb.firebaseio.com",
+    "project_id": "vehiclesist",
+    "storage_bucket": "vehiclesist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893309019334:android:7798de55373a69e6efa3c7",
+        "android_client_info": {
+          "package_name": "com.example.vehiclesist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893309019334-abvglivovq6ks7lddd321q79tlqa3olc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vehiclesist",
+            "certificate_hash": "3c99bea376c72f341d25b2e2945f5c1773e6d860"
+          }
+        },
+        {
+          "client_id": "893309019334-oqco06qlp9464ae41efqj6ho0g1el7h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSY10HsriLjqunLOaPqGXR1N5cS8wiGx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893309019334-oqco06qlp9464ae41efqj6ho0g1el7h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

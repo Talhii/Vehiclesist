@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vehiclesist</string>
+
+    <string-array name="user_type_spinner">
+        <item>Mechanic</item>
+        <item>Tow Truck</item>
+        <item>Petrol Delivery Guy</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
